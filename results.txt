@@ -1,0 +1,61 @@
+Classes: 0 2 4 6
+
+Digits:
+    - Primal:
+        - OVA:  0.9811 (ACC)
+                0,1200 s
+        - OVO:  0.9791 (ACC)
+                0,005 s
+        - ECOC: 0.98611 (ACC)
+                0.233 s
+    - Dual:
+        - OVA:  0.9811 (ACC)
+                2392.96 s
+        - OVO:  0.9791 (ACC)
+                219.4938 s
+        - ECOC: 0.9861 (ACC)
+                1851.84 s
+    - Kernel RBF:
+        - OVA:  1.0 (ACC)
+                1706.324 s
+        - OVO:  1.0 (ACC)
+                449.0055 s
+        - ECOC: 1.0 (ACC)
+                2257.98 s
+    - Polinomial (2º grau):
+        - OVA:  0.9791 (ACC)
+                583.79777 s
+        - OVO:  0.9930 (ACC)
+                275.6593 s
+        - ECOC: 0.9861 (ACC)
+                1136,4966 s
+
+Minist:
+    - Primal:
+        - OVA:  0.9743 (ACC)
+                0,1496 s
+        - OVO:  0.9658 (ACC)
+                0,1217 s
+        - ECOC: 0.9658 (ACC)
+                0.2830 s
+    - Dual:
+        - OVA:  0.9743 (ACC)
+                1390.2959 s
+        - OVO:  0.9658 (ACC)
+                596.6388 s
+        - ECOC: 0.9401 (ACC)
+                2698,0316 s
+    - Kernel RBF:
+        - OVA:  0.9230 (ACC)
+                975.0262 s
+        - OVO:  0.9145 (ACC)
+                340.3830 s
+        - ECOC: 0.9401 (ACC)
+                340.3830 s
+    - Polinomial (2º grau):
+        - OVA:  0.9829 (ACC)
+                3861.62 s
+        - OVO:  0.94017 (ACC)
+                1102.9863 s
+        - ECOC: 0.9658 (ACC)
+                5280,41193 s

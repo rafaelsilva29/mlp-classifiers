@@ -1,0 +1,29 @@
+{
+  "name": "oml-interface",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "deploy": "aws --region eu-west-2 --profile vue-oml-1920-admin s3 sync ./dist s3://vue-oml-1920 --delete"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "vue-axios": "^2.1.5",
+    "vue-graph": "^0.8.7",
+    "vue-router": "^3.2.0",
+    "vuetify": "^2.2.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-router": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0",
+    "vue-cli-plugin-vuetify": "~2.0.5",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.3.0"
+  }
+}
