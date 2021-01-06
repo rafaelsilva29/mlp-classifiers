@@ -8,7 +8,7 @@
     "deploy": "aws --region eu-west-2 --profile vue-oml-1920-admin s3 sync ./dist s3://vue-oml-1920 --delete"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-axios": "^2.1.5",
