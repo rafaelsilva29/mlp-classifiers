@@ -14,7 +14,7 @@
     "vue-axios": "^2.1.5",
     "vue-graph": "^0.8.7",
     "vue-router": "^3.2.0",
-    "vuetify": "^2.2.11"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
